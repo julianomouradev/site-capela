@@ -2,13 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
 
-/*
-  font-family: "Gelasio", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-*/
-
 * {
     padding: 0px;
     margin: 0px;
@@ -27,7 +20,6 @@ body {
 
 }
 
-
 header {
     background-color: #024059;
     color: white;
@@ -37,15 +29,15 @@ header {
     display: flex;
     align-items: center;
     gap: 15px;
-    height: 100px;
+    height: 150px;
     max-width: 800px;
     margin: 0 auto;
     padding: 10px;
 }
 
 .header-topo img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     background-size: cover;
 }
 
@@ -57,7 +49,7 @@ header {
 
 .titulo h1 {
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-bottom: 5px;
 }
 
@@ -172,7 +164,7 @@ section {
 
 #loc-links {
     margin: 0px;
-    padding: 5px;
+    padding: 8px;
     background-color: #024059;
     border-radius: 20px 20px 0px 0px;
     text-align: center;
