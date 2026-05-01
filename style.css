@@ -28,11 +28,11 @@ header {
 .header-topo {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
     height: 150px;
     max-width: 800px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 15px 16px;
 }
 
 .header-topo img {
@@ -45,7 +45,7 @@ header {
 .divisor {
     width: 2px;
     height: 60px;
-    background-color: #c9a646;
+    background-color: #c9a64b;
 }
 
 .titulo h1 {
@@ -59,15 +59,16 @@ header {
 }
 
 .titulo p {
-    margin: 0;
+    margin: 2px 0 0;
     font-size: 0.8em;
-    opacity: 0.8;
+    color: #ccc;
+    opacity: 0.9;
 }
 
 .nav-header {
     text-align: center;
     background-color: #013144;
-    padding: 5px;
+    padding: 10px 0;
 }
 
 .nav-header a {
