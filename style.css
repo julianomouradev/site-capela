@@ -93,7 +93,6 @@ main {
 main > section > h2 {
     font-weight: 600;
     color: #c9a646;
-    border-bottom: 1px solid rgba(201, 166, 70, 0.4);
     padding-bottom: 6px;
     margin-bottom: 16px;
 
@@ -107,6 +106,8 @@ h3 {
 section {
     padding: 40px 17px 50px 17px;
     border-top: 2px solid #dddddd;
+    margin-bottom: 40px;
+    
 }
 
 #ul-horarios {
@@ -159,6 +160,10 @@ section {
     text-decoration: underline;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.603);
     transition: transform .3s, border 1s;
+}
+
+#localizacao {
+    margin-bottom: 0px;
 }
 
 #iframe-localizacao {
