@@ -214,6 +214,29 @@ footer {
     text-align: center;
 }
 
+.p-footer {
+    margin-top: 12px;
+}
+
+#div-brasoes-footer {
+    display: flex;
+    width: 79px;
+    height: 55px;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: cover;
+}
+
+#brasao-capela-footer {
+    margin-top: 5px;
+    
+}
+
+#credito-juliano {
+    margin: 15px 0px;
+}
+
 #ig {
     color: #c2c2c2;
     text-decoration: none;
