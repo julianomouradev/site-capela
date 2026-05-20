@@ -90,6 +90,39 @@ main {
     box-shadow: 1px 0px 9px rgba(0, 0, 0, 0.438);
 }
 
+.hero {
+    position: relative;
+    height: 60vh;
+
+    background-image: url(imagens/saojoaobosco.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    color: white;
+
+    border-top: 0px;
+    margin-bottom: 0px;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.13);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+
+    max-width: 700px;
+}
+
 main > section > h2 {
     font-weight: 600;
     color: #c9a646;
