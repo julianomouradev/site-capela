@@ -66,20 +66,21 @@ p {
     background-size: cover;
 }
 
-#img-p > p {
+.img-p {
     display: flex;
-    margin: 50px;
+    justify-content: center;
+}
+
+.img-p > p {
+    margin: 0px 30px;
     border-radius: 10px;
-    font-size: 1.7em;
+    font-size: 1.4em;
     color: white;
-    background-color: rgba(0, 0, 0, 0.103);
+    background-color: rgba(0, 0, 0, 0.048);
     text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.438);
 }
 
-#img-c {
-    color: white;
-    
-}
+
 
 .div-contato {
     display: flex;
@@ -122,7 +123,6 @@ a:hover {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
     
 }
 
