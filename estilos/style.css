@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+header {
+    background-color: #024059;
+    color: white;
+}
+
+.header-topo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 140px;
+    margin: 0 auto;
+    padding: 15px 16px;
+}
+
+.header-topo img {
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    
+}
+
+.divisor {
+    width: 2px;
+    height: 60px;
+    background-color: #c9a64b;
+}
+
+.titulo h1 {
+    margin: 0;
+    font-size: 1.05em;
+    margin-bottom: 5px;
+}
+
+.titulo h1:hover {
+   color: #c9a646;
+   transition-duration: .6s;
+}
+
+.titulo p {
+    margin: 2px 0 0;
+    font-size: 1.0em;
+    color: #ccc;
+    opacity: 0.9;
+}
+
+.titulo p:hover {
+    color: white;
+    text-shadow: 0px 0px 1px white;
+    transition-duration: .6s;
+}
+
+
+/* NAV */
+.nav-header {
+    background-color: #023a4e;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-header > a {
+    font-size: 0.89em;
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nav-header > a:hover {
+    color: #c9a646;
+    background-color: #014761b4;
+    border-radius: 20px;
+    text-decoration: underline;
+    transition-duration: .4s;
+}
+
+
+/* CONTEUDO PRINCIPAL */
+main {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+
+/* BANNER */
+.hero {
+    position: relative;
+    height: 70vh;
+
+    background-image: url('../imagens/fotocapela-angulomedio.webp');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    text-align: center;
+    color: white;
+
+    border-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    width: 100%;
+    margin: 0px;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.13);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+
+    max-width: 700px;
+}
+
+
+/* CONTEUDO */ 
+main > section > h2 {
+    color: #dab140;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+/* CONFIG. SECTIONS */
+section {
+    padding: 15px;
+    padding-left: 20px;
+    border-top: 1px solid lightgray;
+    margin: 50px 0px 50px 0px;
+}
+
+
+.sobre {
+    border-top: 0px;
+}
+
+
+/* SEC. HORARIOS */
+.ul-horarios {
+    margin: 15px 0px 15px 10px;
+    list-style-position: inside;
+} 
+
+.ul-horarios > ul {
+    margin: 25px 0px 25px 0px ;
+}
+
+.obs {
+    background-color: rgba(211, 211, 211, 0.829);
+    padding: 7px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.377);
+}
+
+
+/* SEC. CONTATO */
+#botao-acessar {
+    margin: 10px 0px 10px 0px ;
+    padding: 7px;
+    background-color: #dab140;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+#botao-acessar:hover {
+   text-decoration: underline;
+   padding: 9px;
+   transition-duration: .3s;
+}
+
+.div-p-contato > p {
+    padding: 15px 0px 15px 0px;
+}
+
+#a-instagram-capela {
+    padding: 6px 50px 6px 50px;
+    border: 1px solid #dab140;
+    color: black;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#a-instagram-capela:hover {
+    background-color: #dab140;
+    color: white;
+    padding: 8px 52px 8px 52px;
+    transition-duration: .3s;
+}
+
+
+/* SEC. LOCALIZACAO */
+#address-loc > a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+#address-loc > a:hover {
+    text-decoration: underline;
+    transition-duration: .2s;
+}
+
+#address-loc {
+    border-left: 3px solid #dab140;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 13px;
+    margin-bottom: 20px;
+}
+
+nav.loc-links {
+    background-color: #023a4e;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
+}
+
+.loc-links > a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 7px 0px 7px;
+}
+
+.loc-links > a:hover {
+    transition-duration: .7s;
+    color: #f5c338;
+    text-decoration: underline;
+}
+
+#iframe-localizacao {
+    display: block;
+    width: 100%;
+    height: 55vh;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #023a4e;
+}
+
+.p-footer {
+    font-size: 0.8em;
+    color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+#div-brasoes-footer {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: auto;  
+} 
+
+#credito-juliano {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: lightgray;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#ig {
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+#ig:hover {
+    color: #f5c338;
+    transition-duration: .3s;
+    text-decoration: underline;
+} 

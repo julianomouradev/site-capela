@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/* #dab140
+   #024059
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scrollbar-width: none;
+}
+
+header {
+    color: #dab140; 
+    background-image: linear-gradient(to bottom, #024059, #01648b);
+    padding: 40px 0px 20px 0px;  
+    text-align: center;
+}
+
+header > h1 {
+    margin-bottom: 25px;
+}
+
+header > a {
+    color: white;
+    padding: 7px 10px;
+    text-decoration: none;
+    border-radius: 17px;
+    transition-duration: .3s;
+}
+
+header > a:hover {
+    background-color: #024059;
+    text-decoration: underline;
+}
+
+/* BODY */
+body {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    body { 
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.5em;
+    }
+}
+
+main {
+    max-width: 950px;
+    margin: auto;
+}
+
+/* SECTION */
+section {
+    padding: 10px;
+    margin: 50px 10px;
+}
+
+/* SECTION 1 */
+#sec1 > h2 {
+    color: #e6ba43;
+    padding-bottom: 10px;
+
+}
+
+
+/* CONFIG. IMGS */
+.img {
+    height: 90vh;
+    width: 100%;
+    max-width: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+/* DIV IMG01 */
+#img01 {
+    background-image: url('../imagens/fotocapela-angulomedio.webp');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#img-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+#img-p > p {
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    flex: 0 1 400px;
+    text-shadow: 0px 0px 3px black;
+}
+
+/* SECTION CONTATO */
+#div-contato {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#div-contato > a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border: 1px solid #dab140;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    flex-basis: 500px;
+}   
+
+#div-contato > a:hover {
+    background-color: #dab140;
+    color: white;
+    text-decoration: underline;
+    transition-duration: .3s;
+} 
+
+#p-contato-kely > a {
+    margin-top: 40px;
+}
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #024059;
+}
+
+.footer-img {
+    padding: 15px;
+}
+
+.footer-img > img {
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}

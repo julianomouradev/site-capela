@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capela São João Bosco</title>
     <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css" orientation="landscape">
 </head>
 <body>
     <header>
@@ -22,12 +23,13 @@
             </div>
 
     </header>
-      <nav class="nav-header">
+
+    <nav class="nav-header">
         <a href="#horarios">Horários</a>
         <a href="#contato">Contato</a>
         <a href="benfeitor.html">Benfeitor</a>
         <a href="#localizacao">Localização</a>
-    </nav>
+    </nav> 
 
     <main>
 
@@ -44,15 +46,15 @@
 
         </section>
 
-        <section id="sobre">
+        <section class="sobre">
             <h2>Boas-Vindas</h2>
             <p>A Capela São João Bosco é uma igreja dedicada à adoração do Santíssimo Sacramento. Um ambiente acolhedor, solene e silencioso.</p>
         </section>
 
-        <section id="horarios">
+        <section class="horarios">
             <h2>Horários</h2>
 
-            <div id="ul-horarios">
+            <div class="ul-horarios">
             <h3>Adoração</h3>
                 <ul>
                     <li>Segunda à Sexta - 15h às 19h</li>
@@ -66,6 +68,8 @@
                 </ul>
             </div>
 
+            <!-- Card de horarios -->
+
         <div class="obs">
             <p><strong>OBS</strong>: Primeira Sexta e Sábado do mês temos Santa Missa; <br> Sexta às 19:30 e Sábado às 8h.</p>
             <p>Devida à ausência de Padres, o horário do domingo pode ser alterado, para mais informações, entre no grupo do Whatsapp da Capela!</p>
@@ -73,16 +77,20 @@
         </div>
         </section>
 
-        <section id="contato">
+        <section class="contato">
             <h2>Contato</h2>
-            <p>Receba avisos e eventos da Capela</p>
-            <a href="https://chat.whatsapp.com/GLciopQkKmeClI3FRyTYO6" target="_blank" id="botao-acessar">Entrar no grupo do Whatsapp</a>
+            <div class="div-p-contato">
+                <p>Receba avisos e eventos da Capela</p>
+                <a href="https://chat.whatsapp.com/GLciopQkKmeClI3FRyTYO6" target="_blank" id="botao-acessar">Entrar no grupo do Whatsapp</a>
+            </div>
 
-            <p id="p-instagram-capela">Veja fotos e acompanhe os eventos</p>
-            <a href="https://instagram.com/capelasaojoaoboscovg" target="_blank" id="a-instagram-capela">Seguir no Instagram</a>
+            <div class="div-p-contato">
+                <p class="p-capela">Veja fotos e acompanhe os eventos</p>
+                <a href="https://instagram.com/capelasaojoaoboscovg" target="_blank" id="a-instagram-capela">Seguir no Instagram</a>
+            </div>
         </section>
 
-        <section id="localizacao">
+        <section class="localizacao">
             <h2>Localização</h2>
             
             <address id="address-loc">
@@ -90,7 +98,7 @@
                 target="_blank">R. Manoel José de Arruda, 50 - Nova Várzea Grande, Várzea Grande - MT</a>
             </address>
 
-            <nav id="loc-links">
+            <nav class="loc-links">
                 <a href="maps.html" target="frame">Google Maps</a>
                 <a href="waze.html" target="frame">Waze</a>
             </nav>

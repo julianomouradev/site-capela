@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+    @media screen and (min-width: 450px) and (max-width: 768px) {
+        body {
+            font-size: 1.3em;
+        }
+
+        #a-instagram-capela {
+            padding-left: 57px;
+            padding-right: 56px;
+        }
+
+        #a-instagram-capela:hover {
+            padding: 8px 59px 8px 59px;
+        }
+
+        
+    }
+
+    /* TABLET */
+    @media screen and (min-width: 769px) {
+    
+        body {
+            font-size: 1.6em;
+        }
+
+        header {
+            height: 30vh;
+        }
+
+        .header-topo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            height: 200px;
+            margin: 0 auto;
+            padding: 20px 20px;
+        }
+
+        header > h1 {
+            font-size: 1.3em;
+        }
+
+        .header-topo img {
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+            
+        }
+
+        .divisor {
+            width: 2px;
+            height: 70px;
+            background-color: #c9a64b;
+        }   
+
+        .hero {
+            
+            width: 100vw;
+        } 
+
+        section {
+            padding-top: 60px;
+            padding-bottom: 60px;
+            max-width: 950px;
+            margin: auto;
+            
+        }
+
+        .hero {
+            max-width: none;
+            width: 100%;
+           
+        }
+
+        section.hero {
+            width: 100%;
+        }
+
+        #a-instagram-capela {
+            padding-left: 68px;
+            padding-right: 68px;
+        }
+
+        #a-instagram-capela:hover {
+            padding: 8px 70px 8px 70px;
+        }
+}
+
+    @media screen and (min-width: 1600px) {
+        
+        body {
+            font-size: 2em;
+        }
+
+        header {
+            height: 30vh;
+        }
+
+        .header-topo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            height: 200px;
+            margin: 0 auto;
+            padding: 20px 20px;
+        }
+
+        header > h1 {
+            font-size: 1.3em;
+        }
+
+        .header-topo img {
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+            
+        }
+
+        .divisor {
+            width: 2px;
+            height: 70px;
+            background-color: #c9a64b;
+        }   
+
+        .hero {
+            flex: 1 1 100%;
+            width: 100vw;
+        }
+
+        section {
+            padding-top: 60px;
+            padding-bottom: 60px;
+            max-width: 950px;
+            margin: auto;
+        }
+
+        #a-instagram-capela {
+            padding-left: 68px;
+            padding-right: 68px;
+        }
+
+        #a-instagram-capela:hover {
+            padding: 8px 70px 8px 70px;
+        }
+
+    }
